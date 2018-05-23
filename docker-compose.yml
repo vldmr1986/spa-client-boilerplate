@@ -1,0 +1,10 @@
+version: '1'
+services:
+  profile-ui:
+    image: profile-ui
+    build: .
+    environment:
+    - HOST=
+    - PORT=
+    ports:
+    - "8080:8080"

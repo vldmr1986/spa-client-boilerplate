@@ -1,0 +1,39 @@
+{
+  "extends": ["airbnb-base"],
+  "parser": "babel-eslint",
+  "rules": {
+    "max-len": [1, 120, 2, {"ignoreComments": true}],
+    "react/prop-types": [2],
+    "linebreak-style": 0,
+    "import/no-namespace": 0,
+    "import/namespace": 0,
+    "import/extensions": 0,
+    "import/no-named-as-default-member": 0,
+    "import/no-deprecated": 0,
+    "import/no-named-as-default": 0,
+    "no-negated-condition": 0,
+    "no-console": [1, { "allow": ["warn", "error", "info"] }],
+    "react/prefer-stateless-function": 0,
+    "no-restricted-syntax": [
+      2,
+      "DebuggerStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "id-length": 0,
+    "react/no-set-state": 0,
+    "react/jsx-no-bind": 0,
+    "no-invalid-this": 0,
+    "no-inline-comments": 0,
+    "no-confusing-arrow": 0
+  },
+  "globals": {
+    "describe": true,
+    "it": true,
+    "path": true,
+    "ga": true
+  },
+  "plugins": [
+    "react"
+  ]
+}
